@@ -1,0 +1,9 @@
+$ git pull origin master  # 将远程仓库里面的项目拉下来
+
+$ dir # 查看有哪些文件夹
+
+$ git rm -r --cached target  # 删除你要删除的文件名称，这里是删除target文件夹（cached不会把本地的flashview文件夹删除）
+
+$ git commit -m '删除了target' # 提交,添加操作说明
+
+git push -u origin master #重新提交（若需要对其他分支进行操作，则把master换为对应分支，如:git push -u origin dev）
